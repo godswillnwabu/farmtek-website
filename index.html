@@ -1,0 +1,963 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./assets/Farmtek-favicon.svg" type="image/x-icon">
+    <title>Farmtek - Home/Landing Page</title>
+    <link rel="stylesheet" href="custom.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+    <!-- <link rel="stylesheet" href="fontawesome-free-6.4.0-web/css/all.min.css"> -->
+</head>
+
+<body id="tothetop">
+
+    <header id="header">
+
+        <div class="container">
+            <div class="d-flex align-items-center justify-content-between py-2">
+                <div class="header-info">
+                    <span>World Wide Completely Free Returns and Shipping</span>
+                </div>
+                <div class="header-addresse">
+                    <a href="tel:+234 000 0000 000" class="me-2">
+                        <span><i class="fa-solid fa-phone me-2" style="color: #13b20f;"></i>+234 000 0000 000</span>
+                    </a>
+                    <a href="mailto:" class="me-2">
+                        <span><i class="fa-solid fa-envelope me-2" style="color: #13b20f;"></i>nonsoamadi@gmail.com</span>
+                    </a>
+                    <a href="#">
+                        <span><i class="fa-solid fa-user me-2" style="color: #13b20f;"></i>Account</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+        
+        <hr>
+
+        <div class="container">
+            <div class="d-flex align-items-center justify-content-between my-4">
+                <div class="header-logo">
+                    <a href="index.html">
+                        <img src="./assets/FARMTEK.svg" alt="logo">
+                    </a>
+                </div>
+                <div class="header-search" style="position: relative;">
+                    <input type="search" name="search" id="search-input" placeholder="Search">
+                    <button type="submit" id="search-btn"><i class="fa-solid fa-magnifying-glass fa-lg" style="color: #ffffff;"></i></button>
+                </div>
+                <div class="header-activities">
+                    <a href="#">
+                        <span><i class="fa-regular fa-heart fa-2xl" style="color: #ffffff;"></i></span>
+                    </a>
+                    <a href="#">
+                        <span class="position-relative ms-3">
+                            <i class="fa-solid fa-cart-plus fa-2xl" style="color: #ffffff;"></i>
+                            <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill" style="background-color: #13b20f;">0
+                                <span class="visually-hidden">add more items</span>
+                                </span>
+                        </span>
+                    </a>
+                </div>
+            </div>
+
+            <nav class="nav-bar" id="navBar">
+                <ul class="nav-menu">
+                    <li class="nav-item" style="position: relative;">
+                        <a href="index.html" class="nav-link home-nav-link">home<i class="fa-solid fa-angle-down fa-xs ms-1" style="color: #ffffff;"></i></a>
+                        <div class="home-submenu">
+                            <div class="home-submenu-items">
+                                <span><a href="index.html" class="submenu-navlink">Landing Page</a></span>
+                                <span><a href="index.html" class="submenu-navlink">Home Page</a></span>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a href="about.html" class="nav-link">about</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link pages-nav-link">pages<i class="fa-solid fa-angle-down fa-xs ms-1" style="color: #ffffff;"></i></a>
+                        <div class="pages-submenu row">
+                            <div class="col pages-submenu-items">
+                                <h6>Inner Pages</h6>
+                                <span><a href="#" class="submenu-navlink">Order tracking</a></span>
+                                <span><a href="#" class="submenu-navlink">404 Page</a></span>
+                                <span><a href="#" class="submenu-navlink">Faq Page</a></span>
+                                <span><a href="#" class="submenu-navlink">Coming Soon Page</a></span>
+                            </div>
+                            <div class="col pages-submenu-items">
+                                <h6>Other Shopping Pages</h6>
+                                <span><a href="#" class="submenu-navlink">Cart Page</a></span>
+                                <span><a href="#" class="submenu-navlink">Checkout Page</a></span>
+                                <span><a href="#" class="submenu-navlink">Compare Page</a></span>
+                                <span><a href="#" class="submenu-navlink">Wishlist Page</a></span>
+                            </div>
+                            <div class="col pages-submenu-items">
+                                <h6>Related Shop Pages</h6>
+                                <span><a href="#" class="submenu-navlink">Account Page</a></span>
+                                <span><a href="#" class="submenu-navlink">Login & Register Page</a></span>
+                                <span><a href="#" class="submenu-navlink">Empty Cart Page</a></span>
+                                <span><a href="#" class="submenu-navlink">Thank You Page</a></span>
+                            </div>
+                            <div class="col pages-submenu-items">
+                                <img src="images/goat-removebg-preview.jpg" alt="image" loading="lazy">
+                            </div>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link pages-nav-link">shop<i class="fa-solid fa-angle-down fa-xs ms-1" style="color: #ffffff;"></i></a>
+                        <div class="pages-submenu row">
+                            <div class="col pages-submenu-items">
+                                <h6>Shop Page</h6>
+                                <span><a href="#" class="submenu-navlink">Order tracking</a></span>
+                                <span><a href="#" class="submenu-navlink">404 Page</a></span>
+                                <span><a href="#" class="submenu-navlink">Faq Page</a></span>
+                                <span><a href="#" class="submenu-navlink">Coming Soon Page</a></span>
+                                <span><a href="#" class="submenu-navlink">404 Page</a></span>
+                                <span><a href="#" class="submenu-navlink">Faq Page</a></span>
+                                <span><a href="#" class="submenu-navlink">Coming Soon Page</a></span>
+                            </div>
+                            <div class="col pages-submenu-items">
+                                <h6>Product Page</h6>
+                                <span><a href="#" class="submenu-navlink">Cart Page</a></span>
+                                <span><a href="#" class="submenu-navlink">Checkout Page</a></span>
+                                <span><a href="#" class="submenu-navlink">Compare Page</a></span>
+                                <span><a href="#" class="submenu-navlink">Wishlist Page</a></span>
+                                <span><a href="#" class="submenu-navlink">404 Page</a></span>
+                                <span><a href="#" class="submenu-navlink">Faq Page</a></span>
+                                <span><a href="#" class="submenu-navlink">Coming Soon Page</a></span>
+                            </div>
+                            <div class="col pages-submenu-items">
+                                <h6>Product Page</h6>
+                                <span><a href="#" class="submenu-navlink">Account Page</a></span>
+                                <span><a href="#" class="submenu-navlink">Login & Register Page</a></span>
+                                <span><a href="#" class="submenu-navlink">Empty Cart Page</a></span>
+                                <span><a href="#" class="submenu-navlink">Thank You Page</a></span>
+                                <span><a href="#" class="submenu-navlink">404 Page</a></span>
+                                <span><a href="#" class="submenu-navlink">Faq Page</a></span>
+                                <span><a href="#" class="submenu-navlink">Coming Soon Page</a></span>
+                            </div>
+                            <div class="col pages-submenu-items">
+                                <h6>Product Page</h6>
+                                <span><a href="#" class="submenu-navlink">Account Page</a></span>
+                                <span><a href="#" class="submenu-navlink">Login & Register Page</a></span>
+                                <span><a href="#" class="submenu-navlink">Empty Cart Page</a></span>
+                                <span><a href="#" class="submenu-navlink">Thank You Page</a></span>
+                                <span><a href="#" class="submenu-navlink">404 Page</a></span>
+                                <span><a href="#" class="submenu-navlink">Faq Page</a></span>
+                                <span><a href="#" class="submenu-navlink">Coming Soon Page</a></span>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="nav-item" style="position: relative;">
+                        <a href="#" class="nav-link blog-nav-link">blog<i class="fa-solid fa-angle-down fa-xs ms-1" style="color: #ffffff;"></i></a>
+                        <div class="blog-submenu">
+                            <div class="blog-submenu-items">
+                                <span><a href="#" class="submenu-navlink">Single Blog</a></span>
+                                <span><a href="#" class="submenu-navlink">Blog List</a></span>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a href="contact.html" class="nav-link">contact</a>
+                    </li>
+                </ul>
+                <a href="#tothetop" class="link-to-top"><i class="fa-solid fa-arrow-up" style="color: #fff;"></i></a>
+            </nav>
+        </div>
+    </header>
+
+    <section class="hero-section">
+
+        <div class="container-fluid" style="padding-left: 0; padding-right: 0; position: relative;">
+            <!-- background overlay -->
+            <div class="hero-overlay"></div>
+
+            <!-- Slider main container -->
+            <div class="swiper js-hero-slider hero-slider">
+                <!-- Additional required wrapper -->
+                <div class="swiper-wrapper hero-swiper-wrapper">
+                <!-- Slides -->
+                    <div class="swiper-slide hero-item">
+                        <img src="bg-images/market-plac.jpg" alt="banner" loading="lazy">
+                        <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+                    </div>
+                    <div class="swiper-slide hero-item">
+                        <img src="bg-images/A-man-with-eggs.jpg" alt="banner" loading="lazy">
+                        <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+                    </div>
+                    <div class="swiper-slide hero-item">
+                        <img src="bg-images/honey-bee.jpg" alt="banner" loading="lazy">
+                        <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+                    </div>
+                    <div class="swiper-slide hero-item">
+                        <img src="bg-images/ladies-in-the-farm.jpg" alt="banner" loading="lazy">
+                        <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+                    </div>
+                    <div class="swiper-slide hero-item">
+                        <img src="bg-images/poultry-of-chicks.jpg" alt="banner" loading="lazy">
+                        <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+                    </div>
+                    <div class="swiper-slide hero-item">
+                        <img src="bg-images/lambs.jpg" alt="banner" loading="lazy">
+                        <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+                    </div>
+                    <div class="swiper-slide hero-item">
+                        <img src="bg-images/tomato-harvest.jpg" alt="banner" loading="lazy">
+                        <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+                    </div>
+                    <div class="swiper-slide hero-item">
+                        <img src="bg-images/farm-engineers.jpg" alt="banner" loading="lazy">
+                        <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+                    </div>
+                    <div class="swiper-slide hero-item">
+                        <img src="bg-images/a-woman-in-farm.jpg" alt="banner" loading="lazy">
+                        <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+                    </div>
+                    <div class="swiper-slide hero-item">
+                        <img src="bg-images/a-woman-in-maize-farm.jpg" alt="banner" loading="lazy">
+                        <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+                    </div>
+                    <div class="swiper-slide hero-item">
+                        <img src="bg-images/a-woman-and-her-casava-harvest.jpg" alt="banner" loading="lazy">
+                        <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+                    </div>
+                    <div class="swiper-slide hero-item">
+                        <img src="bg-images/a-man-and-a-pig (1).jpg" alt="banner" loading="lazy">
+                        <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+                    </div>
+                    <div class="swiper-slide hero-item">
+                        <img src="bg-images/women-planting-in-farm.jpg" alt="banner" loading="lazy">
+                        <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+                    </div>
+                    <div class="swiper-slide hero-item">
+                        <img src="bg-images/rabbit-bg.jpg" alt="banner" loading="lazy">
+                        <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+                    </div>
+                    <div class="swiper-slide hero-item">
+                        <img src="bg-images/man-snapping-pictures-in-farm.jpg" alt="banner" loading="lazy">
+                        <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+                    </div>
+                    <div class="swiper-slide hero-item">
+                        <img src="bg-images/man-spreading-his-grains.jpg" alt="banner" loading="lazy">
+                        <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+                    </div>
+                    <div class="swiper-slide hero-item">
+                        <img src="bg-images/lady-inspecting-her-plant.jpg" alt="banner" loading="lazy">
+                        <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+                    </div>
+                    <div class="swiper-slide hero-item">
+                        <img src="bg-images/shades-of-cock.jpg" alt="banner" loading="lazy">
+                        <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+                    </div>
+
+                </div>
+        
+            </div>
+
+            <!-- If we need navigation buttons -->
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+
+            <!-- HERO CONTENT -->
+            <div class="hero-content js-scroll slide-bottom">
+                <div class="hero-text">
+                    <p class="wellcome mb-4">Welcome To Farmtek</p>
+                    <h1 class="heading mb-5">Your Platform for All Kinds of Agro-Commerce</h1>
+                    <br>
+                    <a href="#">See All Products</a>
+                </div>
+            </div>
+        </div>
+
+        
+    </section>
+
+    <section class="product-section">
+        <div class="container">
+            <div class="product-grid-view mb-5">
+
+                <div class="first-product-grid">
+                    <div class="row first-product-row">
+                        <div class="col-5 product-caption">
+                            <p>Udderly Happy Cows For Sale</p>
+                            <div class="d-flex align-items-center justify-content-between">
+                                <span>Buy @ $00.00</span> 
+                                <span><a href="#"><i class="fa-solid fa-arrow-right fa-xl" style="color: #ffffff;"></i></a></span>
+                            </div>
+                            
+                            
+                        </div>
+                        <div class="col-7 product-image">
+                            <img src="images/herds-of-cow.jpg" alt="product">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="second-product-grid">
+                    <div class="row">
+                        <div class="col-7 product-caption">
+                            <p>Fresh Groceries Delivery</p>
+                            <span>Buy @ $00.00</span>
+                            <br>
+                            <br>
+                            <a href="#"><i class="fa-solid fa-arrow-right fa-xl" style="color: #ffffff;"></i></a>
+                        </div>
+                        <div class="col-5 product-image">
+                            <img src="images/basket-full-vegetables (3).jpg" alt="product" class="d-block mx-auto">
+                        </div>
+                    </div>
+                </div>
+                <div class="second-product-grid">
+                    <div class="row">
+                        <div class="col-7 product-caption">
+                            <p>Fresh Groceries Delivery</p>
+                            <span>Buy @ $00.00</span>
+                            <br>
+                            <br>
+                            <a href="#"><i class="fa-solid fa-arrow-right fa-xl" style="color: #ffffff;"></i></a>
+                        </div>
+                        <div class="col-5 product-image">
+                            <img src="images/basket-full-vegetables (3).jpg" alt="product" class="d-block mx-auto">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <br>
+
+            <div class="product-grid-link">
+                <a href="#">New Arrivals</a>
+                <a href="#" style="color: #fff; background-color: #13b20f; border: 1px solid #13b20f;">Top Selling Products</a>
+                <a href="#">Featured Products</a>
+            </div>
+            <br>
+
+            <div class="product-row-view row g-4 mt-5">
+                <div class="col-3">
+                    <div class="product-row">
+                        <div class="product-row-image">
+                            <img src="images/a-woman-carrying-plaintain.png" alt="product" loading="lazy">
+                        </div>
+                        <div class="product-row-caption mt-3 mb-5">
+                            <span class="text-muted">Products</span><br>
+                            <span style="color: #000;">Bunch of Plantain</span><br>
+                            <span class="text-muted">$00.00</span>
+                        </div>
+                        <div class="product-row-history">
+                            <a href="#"><i class="fa-solid fa-cart-shopping" style="color: #fff;"></i></a>
+                            <a href="#"><i class="fa-regular fa-heart" style="color: #fff;"></i></a>
+                            <a href="#"><i class="fa-regular fa-eye" style="color: #fff;"></i></a>
+                            <a href="#"><i class="fa-solid fa-rotate" style="color: #fff;"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-3">
+                    <div class="product-row">
+                        <div class="product-row-image">
+                            <img src="images/rabbit.png" alt="product" loading="lazy">
+                        </div>
+                        <div class="product-row-caption mt-3 mb-5">
+                            <span class="text-muted">Products</span><br>
+                            <span style="color: #000;">White Rabbit</span><br>
+                            <span class="text-muted">$00.00</span>
+                        </div>
+                        <div class="product-row-history">
+                            <a href="#"><i class="fa-solid fa-cart-shopping" style="color: #fff;"></i></a>
+                            <a href="#"><i class="fa-regular fa-heart" style="color: #fff;"></i></a>
+                            <a href="#"><i class="fa-regular fa-eye" style="color: #fff;"></i></a>
+                            <a href="#"><i class="fa-solid fa-rotate" style="color: #fff;"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-3">
+                    <div class="product-row">
+                        <div class="product-row-image">
+                            <img src="images/a-woman-carrying-plaintain.png" alt="product" loading="lazy">
+                        </div>
+                        <div class="product-row-caption mt-3 mb-5">
+                            <span class="text-muted">Products</span><br>
+                            <span style="color: #000;">Bunch of Plantain</span><br>
+                            <span class="text-muted">$00.00</span>
+                        </div>
+                        <div class="product-row-history">
+                            <a href="#"><i class="fa-solid fa-cart-shopping" style="color: #fff;"></i></a>
+                            <a href="#"><i class="fa-regular fa-heart" style="color: #fff;"></i></a>
+                            <a href="#"><i class="fa-regular fa-eye" style="color: #fff;"></i></a>
+                            <a href="#"><i class="fa-solid fa-rotate" style="color: #fff;"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-3">
+                    <div class="product-row">
+                        <div class="product-row-image">
+                            <img src="images/rabbit.png" alt="product" loading="lazy">
+                        </div>
+                        <div class="product-row-caption mt-3 mb-5">
+                            <span class="text-muted">Products</span><br>
+                            <span style="color: #000;">White Rabbit</span><br>
+                            <span class="text-muted">$00.00</span>
+                        </div>
+                        <div class="product-row-history">
+                            <a href="#"><i class="fa-solid fa-cart-shopping" style="color: #fff;"></i></a>
+                            <a href="#"><i class="fa-regular fa-heart" style="color: #fff;"></i></a>
+                            <a href="#"><i class="fa-regular fa-eye" style="color: #fff;"></i></a>
+                            <a href="#"><i class="fa-solid fa-rotate" style="color: #fff;"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-3">
+                    <div class="product-row">
+                        <div class="product-row-image">
+                            <img src="images/a-mother-hen.jpg" alt="product" loading="lazy">
+                        </div>
+                        <div class="product-row-caption mt-3 mb-5">
+                            <span class="text-muted">Products</span><br>
+                            <span style="color: #000;">Mother Hen</span><br>
+                            <span class="text-muted">$00.00</span>
+                        </div>
+                        <div class="product-row-history">
+                            <a href="#"><i class="fa-solid fa-cart-shopping" style="color: #fff;"></i></a>
+                            <a href="#"><i class="fa-regular fa-heart" style="color: #fff;"></i></a>
+                            <a href="#"><i class="fa-regular fa-eye" style="color: #fff;"></i></a>
+                            <a href="#"><i class="fa-solid fa-rotate" style="color: #fff;"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-3">
+                    <div class="product-row">
+                        <div class="product-row-image">
+                            <img src="images/tubers-of-yam.jpg" alt="product" loading="lazy">
+                        </div>
+                        <div class="product-row-caption mt-3 mb-5">
+                            <span class="text-muted">Products</span><br>
+                            <span style="color: #000;">Tubers of Yam</span><br>
+                            <span class="text-muted">$00.00</span>
+                        </div>
+                        <div class="product-row-history">
+                            <a href="#"><i class="fa-solid fa-cart-shopping" style="color: #fff;"></i></a>
+                            <a href="#"><i class="fa-regular fa-heart" style="color: #fff;"></i></a>
+                            <a href="#"><i class="fa-regular fa-eye" style="color: #fff;"></i></a>
+                            <a href="#"><i class="fa-solid fa-rotate" style="color: #fff;"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-3">
+                    <div class="product-row">
+                        <div class="product-row-image">
+                            <img src="images/a-mother-hen.jpg" alt="product" loading="lazy">
+                        </div>
+                        <div class="product-row-caption mt-3 mb-5">
+                            <span class="text-muted">Products</span><br>
+                            <span style="color: #000;">Mother Hen</span><br>
+                            <span class="text-muted">$00.00</span>
+                        </div>
+                        <div class="product-row-history">
+                            <a href="#"><i class="fa-solid fa-cart-shopping" style="color: #fff;"></i></a>
+                            <a href="#"><i class="fa-regular fa-heart" style="color: #fff;"></i></a>
+                            <a href="#"><i class="fa-regular fa-eye" style="color: #fff;"></i></a>
+                            <a href="#"><i class="fa-solid fa-rotate" style="color: #fff;"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-3">
+                    <div class="product-row">
+                        <div class="product-row-image">
+                            <img src="images/tubers-of-yam.jpg" alt="product" loading="lazy">
+                        </div>
+                        <div class="product-row-caption mt-3 mb-5">
+                            <span class="text-muted">Products</span><br>
+                            <span style="color: #000;">Tubers of Yam</span><br>
+                            <span class="text-muted">$00.00</span>
+                        </div>
+                        <div class="product-row-history">
+                            <a href="#"><i class="fa-solid fa-cart-shopping" style="color: #fff;"></i></a>
+                            <a href="#"><i class="fa-regular fa-heart" style="color: #fff;"></i></a>
+                            <a href="#"><i class="fa-regular fa-eye" style="color: #fff;"></i></a>
+                            <a href="#"><i class="fa-solid fa-rotate" style="color: #fff;"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="second-hero-section">
+        
+        <div class="second-hero-overlay"></div>
+
+        <div class="bg-picture">
+            <img src="images/green-bg.jpg" alt="background" loading="lazy">
+        </div>
+
+        <div class="second-hero-content js-scroll fade-in">
+            <div class="second-hero-text text-center">
+                <p class="wellcome mb-4">From Our Farmlands To Farmtek</p>
+                <h1 class="heading mb-5">All our products comes with its best, <br>All The Time.</h1>
+                <br>
+                <a href="#">See All Products</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="testimonials">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12">
+                    <div class="text-center">
+                        <h1 class="header-text">Testimonials</h1>
+                        <p class="title">what our clients say</p>
+                    </div>
+                </div>
+            </div>
+            <div class="testimonials-content mt-5">
+                <div class="swiper testimonials-slider js-testimonials-slider" style="position: relative;">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide testimonials-item">
+                            <p><i>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempore incidunt magnam, est laborum natus dolorem, quis officiis, aut aliquam vero quae.</i></p>
+                            <div class="rating">
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                            </div>
+                            <div class="info mt-3">
+                                <div class="img-box">
+                                    <img src="portrait/pexels-dapo-abideen-4924538.jpg" alt="img">
+                                </div>
+                                <div class="text-box">
+                                    <h5 class="name">Nonso Amadi</h5>
+                                    <span class="job">Client</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide testimonials-item">
+                            <p><i>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempore incidunt magnam, est laborum natus dolorem, quis officiis, aut aliquam vero quae.</i></p>
+                            <div class="rating">
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                            </div>
+                            <div class="info mt-3">
+                                <div class="img-box">
+                                    <img src="portrait/pexels-gideon-osman-[deonfestimages]-10929958.jpg" alt="img">
+                                </div>
+                                <div class="text-box">
+                                    <h5 class="name">Nonso Amadi</h5>
+                                    <span class="job">Client</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide testimonials-item">
+                            <p><i>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempore incidunt magnam, est laborum natus dolorem, quis officiis, aut aliquam vero quae.</i></p>
+                            <div class="rating">
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                            </div>
+                            <div class="info mt-3">
+                                <div class="img-box">
+                                    <img src="portrait/pexels-monstera-6998345.jpg" alt="img">
+                                </div>
+                                <div class="text-box">
+                                    <h5 class="name">Nonso Amadi</h5>
+                                    <span class="job">Client</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide testimonials-item">
+                            <p><i>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempore incidunt magnam, est laborum natus dolorem, quis officiis, aut aliquam vero quae.</i></p>
+                            <div class="rating">
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                            </div>
+                            <div class="info mt-3">
+                                <div class="img-box">
+                                    <img src="portrait/pexels-monstera-6999225.jpg" alt="img">
+                                </div>
+                                <div class="text-box">
+                                    <h5 class="name">Nonso Amadi</h5>
+                                    <span class="job">Client</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide testimonials-item">
+                            <p><i>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempore incidunt magnam, est laborum natus dolorem, quis officiis, aut aliquam vero quae.</i></p>
+                            <div class="rating">
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                            </div>
+                            <div class="info mt-3">
+                                <div class="img-box">
+                                    <img src="portrait/pexels-monstera-7114326.jpg" alt="img">
+                                </div>
+                                <div class="text-box">
+                                    <h5 class="name">Nonso Amadi</h5>
+                                    <span class="job">Client</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide testimonials-item">
+                            <p><i>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempore incidunt magnam, est laborum natus dolorem, quis officiis, aut aliquam vero quae.</i></p>
+                            <div class="rating">
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                            </div>
+                            <div class="info mt-3">
+                                <div class="img-box">
+                                    <img src="portrait/pexels-oladimeji-ajegbile-2650090.jpg" alt="img">
+                                </div>
+                                <div class="text-box">
+                                    <h5 class="name">Nonso Amadi</h5>
+                                    <span class="job">Client</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- If we need pagination -->
+                    <!-- <div class="swiper-pagination js-testimonials-pagination"></div> -->
+
+                    <!-- If we need navigation buttons -->
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-button-next"></div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <aside style="margin-bottom: 100px;">
+        <div class="container brands-container">
+            <div class="swiper js-brands-swiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <div class="d-flex align-items-center fonts">
+                            <div>
+                                <h1>logo</h1>
+                            </div>
+                            <div class="ms-2">
+                                <h3>brand</h3>
+                                <p>company</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="d-flex align-items-center fonts">
+                            <div>
+                                <h1>logo</h1>
+                            </div>
+                            <div class="ms-2">
+                                <h3>brand</h3>
+                                <p>company</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="d-flex align-items-center fonts">
+                            <div>
+                                <h1>logo</h1>
+                            </div>
+                            <div class="ms-2">
+                                <h3>brand</h3>
+                                <p>company</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="d-flex align-items-center fonts">
+                            <div>
+                                <h1>logo</h1>
+                            </div>
+                            <div class="ms-2">
+                                <h3>brand</h3>
+                                <p>company</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="d-flex align-items-center fonts">
+                            <div>
+                                <h1>logo</h1>
+                            </div>
+                            <div class="ms-2">
+                                <h3>brand</h3>
+                                <p>company</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="d-flex align-items-center fonts">
+                            <div>
+                                <h1>logo</h1>
+                            </div>
+                            <div class="ms-2">
+                                <h3>brand</h3>
+                                <p>company</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- pagination and navigations are not included -->
+            </div>
+        </div>
+    </aside>
+
+    <section class="blog-section">
+        <div class="container">
+            <div class="row mb-5">
+                <div class="col-sm-12">
+                    <div class="text-center">
+                        <h1 class="header-text">Our Latest News</h1>
+                        <p class="title">Take a look at our blogs</p>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper blogs-slider js-blogs-slider">
+                <!-- Additional required wrapper -->
+                <div class="swiper-wrapper">
+                <!-- Slides -->
+                    <div class="swiper-slide blogs-item">
+                        <div class="d-flex align-items-center blog-cover">
+                            <div class="blog-image">
+                                <img src="images/a-woman-carrying-tubers-removebg-preview.png" alt="blog-image">
+                            </div>
+                            <div class="blog-caption">
+                                <div class="blog-date d-flex align-items-center">
+                                    <div>
+                                        <i class="fa-solid fa-calendar-days " style="color: #13b20f;"></i>
+                                        <span class="text-muted">27, November 2030</span>
+                                    </div>
+                                    <div class="ms-4">
+                                        <i class="fa-regular fa-user" style="color: #13b20f;"></i>
+                                        <a href="#" class="blog-text-link text-muted">Nonso Amadi</a>
+                                    </div>
+                                </div>
+                                <h3 class="mt-3"><a href="#" class="blog-header">5 Real-Life Talks About Farmtek Products</a></h3>
+                                <p class="text-muted mt-3 mb-4">fringilla auctor In eleifend maximus nisi sed vulputate in eleifend maximus nisi sed vulputate</p>
+                                <a href="#" class="blog-link">Read More</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide blogs-item">
+                        <div class="d-flex align-items-center blog-cover">
+                            <div class="blog-image">
+                                <img src="images/wheelbarrow-of-plaintain-removebg-preview.png" alt="blog-image">
+                            </div>
+                            <div class="blog-caption">
+                                <div class="blog-date d-flex align-items-center">
+                                    <div>
+                                        <i class="fa-solid fa-calendar-days " style="color: #13b20f;"></i>
+                                        <span class="text-muted">27, November 2030</span>
+                                    </div>
+                                    <div class="ms-4">
+                                        <i class="fa-regular fa-user" style="color: #13b20f;"></i>
+                                        <a href="#" class="blog-text-link text-muted">Nonso Amadi</a>
+                                    </div>
+                                </div>
+                                <h3 class="mt-3"><a href="#" class="blog-header">10 Quick Tips About Farmtek Products</a></h3>
+                                <p class="text-muted mt-3 mb-4">fringilla auctor In eleifend maximus nisi sed vulputate in eleifend maximus nisi sed vulputate</p>
+                                <a href="#" class="blog-link">Read More</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide blogs-item">
+                        <div class="d-flex align-items-center blog-cover">
+                            <div class="blog-image">
+                                <img src="images/a-woman-with-lemon-removebg-preview.png" alt="blog-image">
+                            </div>
+                            <div class="blog-caption">
+                                <div class="blog-date d-flex align-items-center">
+                                    <div>
+                                        <i class="fa-solid fa-calendar-days " style="color: #13b20f;"></i>
+                                        <span class="text-muted">27, November 2030</span>
+                                    </div>
+                                    <div class="ms-4">
+                                        <i class="fa-regular fa-user" style="color: #13b20f;"></i>
+                                        <a href="#" class="blog-text-link text-muted">Nonso Amadi</a>
+                                    </div>
+                                </div>
+                                <h3 class="mt-3"><a href="#" class="blog-header">5 Real-Life Talks About Farmtek Products</a></h3>
+                                <p class="text-muted mt-3 mb-4">fringilla auctor In eleifend maximus nisi sed vulputate in eleifend maximus nisi sed vulputate</p>
+                                <a href="#" class="blog-link">Read More</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide blogs-item">
+                        <div class="d-flex align-items-center blog-cover">
+                            <div class="blog-image">
+                                <img src="images/a-woman-carrying-chicken-removebg-preview.png" alt="blog-image">
+                            </div>
+                            <div class="blog-caption">
+                                <div class="blog-date d-flex align-items-center">
+                                    <div>
+                                        <i class="fa-solid fa-calendar-days " style="color: #13b20f;"></i>
+                                        <span class="text-muted">27, November 2030</span>
+                                    </div>
+                                    <div class="ms-4">
+                                        <i class="fa-regular fa-user" style="color: #13b20f;"></i>
+                                        <a href="#" class="blog-text-link text-muted">Nonso Amadi</a>
+                                    </div>
+                                </div>
+                                <h3 class="mt-3"><a href="#" class="blog-header">10 Quick Tips About Farmtek Products</a></h3>
+                                <p class="text-muted mt-3 mb-4">fringilla auctor In eleifend maximus nisi sed vulputate in eleifend maximus nisi sed vulputate</p>
+                                <a href="#" class="blog-link">Read More</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- If we need pagination -->
+                <div class="swiper-pagination js-blogs-pagination"></div>
+            </div>
+        </div>
+    </section>
+
+    <section class="info-section" style="margin-bottom: 0 !important;">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <div class="header-logo">
+                        <a href="index.html">
+                            <img src="./assets/FARMTEK.svg" alt="logo">
+                        </a>
+                    </div>
+                    <p class="mt-3 mb-4 footer-address">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex, tempora aspernatur asperiores perferendis itaque.</p>
+                    <div class="social-media">
+                        <a href="#"><i class="fa-brands fa-facebook-f" style="color: #ffffff;"></i></a>
+                        <a href="#"><i class="fa-brands fa-twitter" style="color: #ffffff;"></i></a>
+                        <a href="#"><i class="fa-brands fa-instagram" style="color: #ffffff;"></i></a>
+                        <a href="#"><i class="fa-brands fa-whatsapp" style="color: #ffffff;"></i></a>
+                    </div>
+                </div>
+                <div class="col">
+                    <h4 class="mb-3">Services</h4>
+                    <li><a class="footer-links" href="#">Top Selling  Product</a></li>
+                    <li><a class="footer-links" href="#">New Arrivals</a></li>
+                    <li><a class="footer-links" href="#">On-going Sales</a></li>
+                    <li><a class="footer-links" href="#">Featured Products</a></li>
+                    <li><a class="footer-links" href="#">Faq</a></li>
+                </div>
+                <div class="col">
+                    <h4 class="mb-3">My Account</h4>
+                    <li><a class="footer-links" href="#">Login/Register</a></li>
+                    <li><a class="footer-links" href="#">Shopping Cart</a></li>
+                    <li><a class="footer-links" href="#">Wishlist Page</a></li>
+                    <li><a class="footer-links" href="#">Checkout Page</a></li>
+                    <li><a class="footer-links" href="#">About Page</a></li>
+                </div>
+                <div class="col">
+                    <h4 class="mb-3">Contact Info</h4>
+                    <p class="footer-address">Address: Your Address Goes Here <br>
+                    Telephone: +234 90 0000 0000 <br>
+                    Email: nonsoamadi@gmail.com</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="d-flex align-items-center justify-content-between">
+                <div class="copyright">
+                    <p>&copy; <span id="year"></span> <strong style="font-weight: 700; color: #13b20f;">Farmtek</strong> Developed with <i class="fa-solid fa-heart" style="color: #1b1515;"></i> By ConnakDevTeam.</p>
+                </div>
+                <div class="payment-option">
+                    <span><img src="images/icons8-american-express-48.png" alt="option"></span>
+                    <span><img src="images/icons8-credit-card-48.png" alt="option"></span>
+                    <span><img src="images/icons8-visa-card-48.png" alt="option"></span>
+                    <span><img src="images/icons8-mastercard-48.png" alt="option"></span>
+                </div>
+                
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <script>
+        // Initialize Swiper
+        var swiper = new Swiper('.js-testimonials-slider', {
+            //optional parameters
+
+            // slide per view
+            slidesPerView: 2,
+            spaceBetween: 30,
+
+            // if we need navigation
+            navigation: {
+                nextEl: '.swiper-button-next',
+                prevEl: '.swiper-button-prev',
+            },
+
+        });
+    </script>
+
+    <script>
+        var swiper = new Swiper('.js-hero-slider', {
+
+            autoplay: {
+            delay: 2500,
+            disableOnInteration: false,
+            },
+
+            // effect fade
+            spaceBetween: 30,
+            effect: "fade",
+            
+            navigation: {
+                nextEl: '.swiper-button-next',
+                prevEl: '.swiper-button-prev',
+            },
+        });
+    </script>
+
+    <script>
+        var swiper = new Swiper('.js-blogs-slider', {
+
+            slidesPerView: 2,
+            spaceBetween: 30,
+
+            grabCursor: true,
+            
+            pagination: {
+                el: '.js-blogs-pagination',
+                clickable: true,
+                dynamicBullets: true,
+            },
+        });
+    </script>
+    <script>
+        var swiper = new Swiper('.js-brands-swiper', {
+            autoplay: {
+            delay: 4000,
+            disableOnInteration: false,
+            },
+
+            slidesPerView: 4,
+            spaceBetween: 20,
+
+            //css mode - smooth slide
+            cssMode: true,
+        });
+    </script>
+</body>
+</html>
