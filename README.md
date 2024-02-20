@@ -9,7 +9,6 @@ Vist our live page [here](https://godswillnwabu.github.io/farmtek-website/)
 * [Technologies](#technologies)
 * [Setup](#setup)
 * [Project Status](#project-status)
-* [Acknowledgement](#acknowledgement)
 * [Contact](#contact)
 
 ## General info
@@ -31,9 +30,6 @@ To run this project:
 
 # Project Status
 Project is still in progress
-
-# Acknowledgement
-I wish to thank ConnakDevTeam who have contributed on making this project a continuing success and alot more easier to develope; and more thanks to them on bringing out the idea of making this project an Agro-product commerce. I think a clap will do more :)
 
 # Contact
 Project developed by [me](https://www.linkedin.com/in/godswill-nwabeke-719a09252) - feel free to contact me!
